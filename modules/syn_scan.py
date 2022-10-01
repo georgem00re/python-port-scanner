@@ -1,6 +1,5 @@
 
 from scapy.all import *
-import netifaces as ni
 
 def syn_scan(ip_addr, port): # stealth (SYN) scan
 
